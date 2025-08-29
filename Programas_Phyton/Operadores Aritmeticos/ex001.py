@@ -1,0 +1,10 @@
+n1 = int(input('Digite um número:'))
+n2 = int(input('Digite outro número:'))
+
+print('A soma de {} e {} é: {}'.format(n1, n2, n1 + n2))
+print('A Subtração de {} e {} é: {}'.format(n1, n2, n1 + n2))
+print('A Multiplicação de {} por {} é: {}'.format(n1, n2, n1 * n2))
+print('A divisão de {} por {} é: {}'.format(n1, n2, n1 / n2))
+print('{} elevado à potência {} resulta em: {}'.format(n1, n2, n1 ** n2))
+print('O Resto da divisão de {} por {} é: {}'.format(n1, n2, n1 % n2))
+print('A parte inteira da divisão de {} com {} é: {}'.format(n1, n2, n1 // n2))

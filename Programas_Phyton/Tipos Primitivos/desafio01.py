@@ -1,0 +1,8 @@
+alnum = input('Digite um número e uma letra: ')
+print('O tipo primitivo de {} é {}'.format(alnum, type(alnum)))
+print('Só tem espaços? {}'.format(alnum.isspace()))
+print('É alfabeto? {}'.format(alnum.isalpha()))
+print('É alfanumerico? {}'.format(alnum.isalnum()))
+print('Está em maiúsculas? {}'.format(alnum.isupper()))
+print('Está em minúsculas? {}'.format(alnum.islower()))
+print('É numérico? {}'.format(alnum.isnumeric()))
