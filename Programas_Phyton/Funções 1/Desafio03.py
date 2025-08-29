@@ -8,14 +8,14 @@ def contador(i, f, p):
             print(f'{cont}', end=' ')
             sleep(0.5)
             cont += p
-        print('Fim!')
+        print('Fim!!')
     else:
         cont = i
         while cont >= f:
             print(f'{cont}', end=' ')
             sleep(0.5)
             cont -= p
-        print('Fim!')
+        print('Fim!!')
 
 #comando principal
 contador(1, 10, 1)
