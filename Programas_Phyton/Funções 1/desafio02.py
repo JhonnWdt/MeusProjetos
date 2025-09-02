@@ -1,8 +1,9 @@
 def escreve(txt):
     texto = frases
-    print('-' * len(txt))
-    print(txt)
-    print('-' * len(txt))
+    largura = len(txt) + 6
+    print('-' * largura)
+    print(txt.center(largura))
+    print('-' * largura)
 
 
 frases = []
